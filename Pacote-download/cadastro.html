@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de alunos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>CADASTRO DE ALUNOS</h1>
+    </header>
+
+    <section>
+        <div id="alunos"> </div>
+            <p>Nome do Aluno:
+                <input type="text" name="nome" id="nome" class="item"></p>
+            <p>Nota:
+                <input type="number" name="nota" id="nota" class="item"></p>
+            <p>Telefone:
+            <input type="tel" name="telefone" id="telefone" class="item"></p>    
+            <p>Data de cadastro:
+                <input type="date" name="data" id="data" class="item">
+            </p><p>
+                <input type="button" value="Cadastrar" onclick="cadastrar()">
+                <input type="button" value="Salvar" onclick="salvar()">
+            </p>
+        
+
+    </section>
+    <br>
+    
+    <section>
+            <p> Lista de Alunos Ativos:</p>
+            <div id="res"></div>
+        
+
+    </section>
+
+    <footer>
+        <p>&copy; Cadastro de Alunos</p>
+
+    </footer>
+        
+   <script src="script.js"></script>
+      
+   </script>
+    
+    
+</body>
+</html>
